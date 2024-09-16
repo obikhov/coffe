@@ -1,0 +1,211 @@
+
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    background-color: #14110e;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.header{
+    background-color: #1c1814;
+}
+
+.container{
+    max-width: 1920px;
+    padding-left: 300px;
+    padding-right: 300px;
+margin: 0 auto;    
+}
+
+/* header */
+.list-menu{
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #c99e71;
+}
+.address{
+    font-style: normal;
+    margin-left: auto;
+}
+
+.list-adress{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #fff;
+}
+/* header flex */
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.navigattion{
+    display: flex;
+    align-items: center;
+}
+.menu-flex{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.adress-flex{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    
+}
+.logo-icon{
+margin: 0 auto;
+border: 0;
+display: block;
+background: transparent;
+padding-top: 32px;
+padding-bottom: 33px;
+}
+
+/* Секцыя 1 */
+.afisha{
+    background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url(./img/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 166px;
+
+   
+}
+
+.heading{
+    max-width: 529px;
+    padding-top: 147px;
+    padding-bottom: 32px;
+font-weight: 400;
+font-size: 72px;
+line-height: 94px; 
+line-height: 1.3;
+color: #fff;
+}
+
+.paragraf-heading{
+    max-width: 511px;
+font-weight: 500;
+font-size: 20px;
+line-height: 36px; 
+line-height: 1.8;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.8);
+padding-bottom: 64px;
+}
+
+.button-heading{
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;   
+gap: 10px;
+padding: 24px 40px;
+width: 202px;
+height: 70px;
+background-color: #c99e71;
+
+}
+
+/* Секція 2 */
+.price-section{
+    padding-top: 140px;
+}
+.key-price{
+    margin-bottom: 140px;
+}
+.price-list{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 36px;
+}
+.coffe-rek{
+    margin-bottom: 24px;
+    text-align: center;
+}
+.text-rek{
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
+.color-text{
+text-transform: uppercase;
+color: #c99e71;
+}
+
+/* kart */
+.kartt-container{
+    margin-bottom: 140px;
+}
+.kart-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.imj-kart{
+    margin-bottom: 32px;
+}
+.kart-menu{
+    width: 510px;
+height: 635px;
+background-color: #1c1814;
+}
+/* kart menu */
+.container-cart{
+  padding-top: 120px;
+  padding-bottom: 147px;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+.kart-history{
+font-weight: 600;
+font-size: 18px;
+color: #c99e71;
+max-width: 89px;
+}
+.logo-kart{
+    margin-top: 12px;
+font-weight: 400;
+font-family: "Noto Serif", serif;
+font-size: 48px;
+line-height: 1.3em;
+color: #fff;
+width: 298px;
+}
+.paragraf-kart-menu{
+    font-family: "Noto Serif", serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.8;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.8);
+margin-top: 36px;
+}
